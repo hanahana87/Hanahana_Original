@@ -21,14 +21,14 @@
 <body>
   <header>
 
-    <nav>
+    <nav class="header_nav">
       <p>十条FANFUN</p>
       <ul>
         <li><a href="index.html#introduction">home</a></li>
         <li><a href="index.html#courses">about</a></li>
         <li><a href="index.html#courses">map</a></li>
-        <li><a href="index.html#slick">食FANFUN</a></li>
-        <li><a href="index.html#access">服FANFUN</a></li>
+        <li><a href="food.html">食FANFUN</a></li>
+        <li><a href="cloth.html">服FANFUN</a></li>
         <li><a href="index.html#access">撮FANFUN</a></li>
       </ul>
     </nav>
@@ -86,48 +86,31 @@
         </div>
     </section>
 
+    <section id="food" class="food">
+      <h1>食FANFUN</h1>
+      <div class="food_contents">
+        <a href="food.html"><img src="images/food1_300.png" alt="次へ" width="100%"></a>
 
-    <section id="news">
-      <div class="modal">
-          <div class="modal-box">
-              <a href="#news1" class="modal-button">
-                  <img src="images/food1_300.png" alt="" class="banner">
-              </a>
-          </div>
-          <div id="news1" style="display:none;" class="news">
-              <img src="images/food1_300.png" alt="" class="banner">
-              <h3>モバイルオーダーシステムがスタートしました</h3>
-              <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-          </div>
-
-          <div class="modal-box">
-              <a href="#news1" class="modal-button">
-                  <img src="images/food2_300.png" alt="" class="banner">
-              </a>
-          </div>
-          <div id="news1" style="display:none;" class="news">
-              <img src="images/food_1.jpg" alt="" class="banner">
-              <h3>オープン記念セール開催中です</h3>
-              <p>全品10%OFFになっています。この機会にぜひご来店ください！</p>
-          </div>
+        <a href="food.html"><img src="images/food2_300.png" alt="次へ" width="100%"></a>
+        <a href="food.html"><img src="images/food3_300.png" alt="次へ" width="100%"></a>
+        <a href="food.html"><img src="images/food4_300.png" alt="次へ" width="100%"></a>
       </div>
+        
     </section>
 
     <section id="cloth" class="cloth">
       <h1>服FANFUN</h1>
-      <div class="food_contents">
-        <img src="images/cloth1_300.png" alt="">
-        <img src="images/cloth3_300.png" alt="">
-        <img src="images/cloth2_300.png" alt="">
-        <img src="images/cloth4_300.png" alt="">
+      <div class="cloth_contents">
+        <a href="cloth.html"><img src="images/cloth1_300.png" alt="次へ" width="100%"></a>
+        <a href="cloth.html"><img src="images/cloth2_300.png" alt="次へ" width="100%"></a>
+        <a href="cloth.html"><img src="images/cloth3_300.png" alt="次へ" width="100%"></a>
+        <a href="cloth.html"><img src="images/cloth4_300.png" alt="次へ" width="100%"></a>
       </div>
     </section>
 
 
 
     <section id="limited">
-      <h2 class="heading">Limited</h2>
-      <p class="subheading">期間限定</p>
       <div class="slider">
           <div>
               <img src="images/food_1.jpg" alt="" class="slide-img">
@@ -176,6 +159,7 @@
 
     <section id="map" class="map">
       <h1>map</h1>
+
       <div>
         <img src="images/map.png" alt="" class="slide-img">
       </div>
@@ -184,8 +168,22 @@
 
 
   </main>
-  <footer>
-    &copy; jyujyo_fanfun Inc.
+  <footer class="food_footer">
+    
+    <nav class="footer_nav">
+      <ul>
+        <li><a href="index.html#introduction">home</a></li>
+        <li><a href="index.html#courses">about</a></li>
+        <li><a href="index.html#courses">map</a></li>
+        <li><a href="index.html#slick">食FANFUN</a></li>
+        <li><a href="index.html#access">服FANFUN</a></li>
+        <li><a href="index.html#access">撮FANFUN</a></li>
+      </ul>
+    </nav>
+
+    <p>
+      &copy; jyujyo_fanfun Inc.
+    </p>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/jquery.bgswitcher.js"></script>
