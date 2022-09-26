@@ -83,6 +83,7 @@ li{
 
 #first{
   text-align: center;
+  color: #383971;
 }
 
 .first-text{
@@ -110,9 +111,11 @@ li{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 250px;
+  margin: 50px 250px;
   background-image: url(../images/about_back.png);
   background-size: cover;
+  border-radius: 10px;
+  color: #383971;
 }
 
 
@@ -143,11 +146,19 @@ li{
 }
 
 
-
-
-.food{
-  margin: 100px 250px;
+.fanfun_contents{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 130px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #FEF5E4;
+  color: #383971;
 }
+
+
 
 .food h1{
   text-align: center;
@@ -164,10 +175,16 @@ li{
   border-radius: 10px;
 }
 
-
-.cloth{
-  margin: 100px 250px;
+.food a{
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
 }
+
+.food a:hover {
+  box-shadow:10px 10px 5px #cccccc;
+  }
+
 
 .cloth h1{
   text-align: center;
@@ -183,6 +200,16 @@ li{
 .cloth img{
   border-radius: 10px;
 }
+
+.cloth a{
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.cloth a:hover {
+  box-shadow:10px 10px 5px #cccccc;
+  }
 
 
 
@@ -222,21 +249,6 @@ li{
   padding: 5px 10px;
 }
 
-
-
-
-.map{
-  text-align: center;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-
-
-.map h1{
-  font-size: 60px;
-}
 
 
 /*食FANFUN*/
@@ -282,6 +294,7 @@ li{
   opacity: 0;
   text-align: center;
   background-color: #FE522C;
+  border-radius: 10px;
 }
 .tab-switch:checked+.tab-label {
   background: #383971;
@@ -299,9 +312,16 @@ li{
 }
 
 .fanfun_map{
+  margin-top: 100px;
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 50px;
+}
+
+.fanfun_map h1{
+  color: #383971;
+  font-size: 60px;
+  text-align: center;
 }
 
 .body_food h1{
@@ -422,6 +442,7 @@ iframe{
   opacity: 0;
   text-align: center;
   background-color: #FFD625;
+  border-radius: 10px;
 }
 .tab-switch:checked+.tab-label {
   background: #383971;
