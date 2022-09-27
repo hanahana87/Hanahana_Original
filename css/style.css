@@ -92,6 +92,8 @@ li{
 #first{
   text-align: center;
   color: #383971;
+  background-image: url(../images/first_back.png);
+  background-size: cover;
 }
 
 .first-text{
