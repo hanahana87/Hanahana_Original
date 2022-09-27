@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #FEF5E4;
+}
+
 .bg-swicher{
   width: 100vw;
   height: 100vh;
@@ -124,7 +128,7 @@ li{
   background-image: url(../images/about_back.png);
   background-size: cover;
   */
-  background-color:#FEF5E4;
+  background-color:#FFD625;
   border: #FFD625;
   border-radius: 10px;
   color: #383971;
@@ -176,6 +180,10 @@ li{
   font-size: 60px;
 }
 
+.food p{
+  text-align: center;
+}
+
 .food_contents{
   display: flex;
   justify-content: space-between;
@@ -201,6 +209,10 @@ li{
 .cloth h1{
   text-align: center;
   font-size: 60px;
+}
+
+.cloth p{
+  text-align: center;
 }
 
 .cloth_contents{
@@ -285,7 +297,7 @@ li{
 }
 .tab-label {
   color: #FEF5E4;
-  background: #FEF5E4;
+  background:#383971;
   font-weight: bold;
   white-space: nowrap;
   text-align: center;
