@@ -28,7 +28,7 @@ header{
 }
 
 .header_nav{
-  height: 80px;
+  height: 100px;
   line-height: 80px;
   display: flex;
   justify-content: space-between;
@@ -42,14 +42,15 @@ header{
 
 .header_nav ul{
   display: flex;
-  width: 800px;
-  padding-right: 180px;
+  width: 50%;
+  padding-right: 10px;
 }
 
 .header_nav a{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #383971;
+  text-decoration: none;
 }
 
 .footer_nav{
@@ -69,15 +70,17 @@ header{
 }
 
 .footer_nav a{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #FEF5E4;
+  text-decoration: none;
 }
 
 
 li{
   text-decoration: none;
   padding: 0 20px;
+  
 }
 
 
@@ -117,8 +120,12 @@ li{
   padding-bottom: 100px;
   padding-right: 100px;
   padding-left: 100px;
+  /*
   background-image: url(../images/about_back.png);
   background-size: cover;
+  */
+  background-color:#FEF5E4;
+  border: #FFD625;
   border-radius: 10px;
   color: #383971;
 }
