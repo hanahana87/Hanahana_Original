@@ -1,6 +1,6 @@
 $(function($){
     $('.bg-swicher').bgSwitcher({
-        images: ['../images/logo1.png','../images/logo2.png','../images/logo1.png'],
+        images: ['../images/logo2.png','../images/logo2.png','../images/logo2.png'],
         interval: 3000,
         loop: true
     });
@@ -19,9 +19,13 @@ $(function($){
         arrows: false,
         autoplay: true,
         dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         centerMode: true,
         centerPadding: '25%',
+
     });
+
 
     $('.more-button').on('click', function(){
         if($('.open-box').is(':hidden')) {

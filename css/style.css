@@ -14,7 +14,7 @@ body {
 .bg-swicher{
   width: 100vw;
   height: 100vh;
-  background-image: url(../images/logo1.png);
+  background-image: url(../images/logo2.png);
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -252,42 +252,31 @@ li{
 }
 
 
+/*====================================================================
+slick
+====================================================================*/
+
+
+
+
 
 .slick-initialized .slick-slide{
   display: flex;
-  align-items: center;
   bottom: 3px solid #dcdcdc;
   height: 300px;
   border-radius: 10px;
-  margin: 50px;
-  background-color: bisque;
+  margin: 0;
 }
 
 
 
 .slide-img{
-  margin: 50px;
-  height: 350px;
+  margin: 20px;
+  height: 200px;
   border-radius: 10px;
 }
 
-.slide-box{
-  padding-left: 30px;
-  width: 60%;
-}
 
-.slide-title{
-  font-size: 36px;
-}
-
-.slide-tag{
-  background-color: #f05454;
-  border-radius: 5px;
-  color: #ffffff;
-  display: inline-block;
-  margin: 10px 0;
-  padding: 5px 10px;
-}
 
 
 
