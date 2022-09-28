@@ -23,6 +23,20 @@ body {
   overflow: hidden;
 }
 
+.view{
+  height:100vh;
+  background-image: url(../images/logo2.png);
+  background-size: cover;
+}
+
+.view img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
 header{
   padding: 0 30px;
   position: fixed;
