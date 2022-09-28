@@ -24,7 +24,7 @@ body {
 }
 
 header{
-  padding: 0 180px;
+  padding: 0 30px;
   position: fixed;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.8);
@@ -47,8 +47,8 @@ header{
 
 .header_nav ul{
   display: flex;
-  width: 50%;
-  padding-right: 10px;
+  width: 650px;
+  margin-right: 60px;
 }
 
 .header_nav a{
@@ -241,6 +241,17 @@ li{
   }
 
 
+.index_footer{
+  background-color:#FEF5E4;
+  text-align: center;
+}
+
+.index_footer p{
+  background-color: #383971;
+  color: #FEF5E4;
+}
+
+
 
 .slick-initialized .slick-slide{
   display: flex;
@@ -403,6 +414,7 @@ iframe{
   border-radius: 10px;
   border-color:#FE522C;
   border-width: 20px;
+  color: #383971;
 }
 
 .food_img{
