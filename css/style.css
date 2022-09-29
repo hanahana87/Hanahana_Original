@@ -24,6 +24,7 @@ body {
 }
 
 .view{
+  width: 100vw;
   height:100vh;
   background-image: url(../images/logo2.png);
   background-size: cover;
@@ -73,6 +74,10 @@ header{
   flex-direction: column;
 }
 
+.header_nav img{
+  height: 90px;
+}
+
 .footer_nav{
   height: 80px;
   line-height: 80px;
@@ -100,7 +105,6 @@ header{
 li{
   text-decoration: none;
   padding: 0 20px;
-  
 }
 
 
@@ -519,5 +523,68 @@ iframe{
   color: #FEF5E4;
 }
 
+
+/*ここから下はスマホデザイン*/
+
+@media all and (max_width:400px){
+
+  /*TOP*/
+  .view{
+    width: 100vw;
+    height:auto;
+  }
+
+  header{
+    padding: 0px;
+    width: 100vw;
+  }
+  
+  .header_nav{
+    height: 60px;
+  }
+  
+  .header_nav ul{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  .header_nav img {
+    width: 10px;
+    height:30px;
+  }
+
+  li{
+    text-decoration: none;
+    padding: 0px;
+  }
+  
+
+  /*セクション説明*/
+  .first-text{
+    display: block;
+    justify-content: center;
+    margin: 0px;
+  }
+  
+  .first-text h1{
+    font-size: 20px;
+  }
+  
+  .first-text h2{
+    margin-top: 0px;
+  }
+  
+  .first-text p{
+    margin-top: 0px;
+  }
+  
+
+  .slide-img{
+    width: 30px;
+  }
+
+  
+
+}
 
 
