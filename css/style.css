@@ -544,7 +544,16 @@ iframe{
   .view{
     width: 100vw;
     height:100vh;
+    background-image: url(../images/logo2_sp.png);
   }
+
+  .view img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+  }
+
 
   header{
     padding: 0px;
@@ -557,6 +566,7 @@ iframe{
   
   .header_nav ul{
     display: flex;
+    justify-content: center;
     margin-right: 0px;
   }
 
@@ -567,7 +577,10 @@ iframe{
   }
 
   .logo img{
+    margin-right: 0;
+    margin-left: 20px;
     height: 50px;
+    width: auto;
   }
 
   .footer_nav img{
@@ -583,7 +596,7 @@ iframe{
   .footer_nav p{
     font-size: 10px;
   }
-  
+
 
   
   .footer_nav a{
@@ -617,7 +630,7 @@ iframe{
   
 
   .first-text{
-    margin: 0px;
+    margin: 0 10px;
   }
 
   .first-text h1{
@@ -632,6 +645,7 @@ iframe{
   
   .first-text p{
     margin-top: 10px;
+    margin-bottom: 50px;
   }
 
   .about{
@@ -647,9 +661,9 @@ iframe{
   
   
   .about img{
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
   }
   
   .about-text{
@@ -677,6 +691,7 @@ iframe{
   }
 
   .fanfun_map h1{
+    margin-top: 40px;
     font-size: 20px;
   }
 
@@ -697,6 +712,7 @@ iframe{
   
   .food h1{
     font-size: 20px;
+    margin-top: 20px;
   }
   
   .food img{
@@ -716,6 +732,7 @@ iframe{
   
   .cloth h1{
     font-size: 20px;
+    margin-top: 20px;
   }
   
   .cloth_contents{
@@ -845,16 +862,21 @@ iframe{
   .pc_map { display: none !important; }
   .sp_map { display: block !important; }
 
+
+
+
+
   }
-  
-
-  
-
-  
 
 
   
 
-}
+  
+
+  
+
+
+  
+
 
 
