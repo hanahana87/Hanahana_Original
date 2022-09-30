@@ -587,7 +587,6 @@ iframe{
     height: 50px;
   }
 
-
   .footer_nav{
     height: 80px;
     line-height: 80px;
@@ -596,7 +595,6 @@ iframe{
   .footer_nav p{
     font-size: 10px;
   }
-
 
   
   .footer_nav a{
@@ -845,7 +843,7 @@ iframe{
   .slick-initialized .slick-slide{
     display: flex;
     bottom: 3px solid #dcdcdc;
-    height: 100px;
+    height: 60px;
     border-radius: 10px;
     margin: 0;
   }
@@ -853,15 +851,13 @@ iframe{
   
   
   .slide-img{
-    margin: 20px;
-    height: 100px;
-    width: 100px;
-    height: 100px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
   } 
   
   .pc_map { display: none !important; }
   .sp_map { display: block !important; }
-
 
 
 
