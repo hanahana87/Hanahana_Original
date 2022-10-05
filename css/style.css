@@ -200,7 +200,7 @@ footer li{
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 50px;
-  padding: 50px;
+  padding: 50px 200px;
   border-radius: 10px;
   background-color: #FEF5E4;
   color: #383971;
@@ -294,7 +294,7 @@ slick
   bottom: 3px solid #dcdcdc;
   height: 300px;
   border-radius: 10px;
-  margin: 0;
+  margin: 0 30px;
 }
 
 
@@ -619,6 +619,7 @@ margin: 0 auto;}
     font-weight: bold;
     color: #FEF5E4;
     text-decoration: none;
+    margin: 0 5px;
   }
 
   li{
@@ -679,6 +680,7 @@ margin: 0 auto;}
     width: 100px;
     height: 100px;
     margin-top: 30px;
+    margin-left: 130px;
   }
   
   .about-text{
@@ -874,6 +876,13 @@ margin: 0 auto;}
   
   .pc_map { display: none !important; }
   .sp_map { display: block !important; }
+
+
+  .map_long{
+    margin: 0 5px;
+  }
+
+
 
 
 
