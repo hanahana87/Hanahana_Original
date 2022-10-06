@@ -546,7 +546,7 @@ margin: 0 auto;}
 
 /*ここから下はスマホデザイン*/
 
-@media all and (max-width:400px){
+@media all and (max-width:430px){
 
   /*TOP*/
   .view{
