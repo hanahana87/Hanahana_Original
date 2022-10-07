@@ -55,7 +55,7 @@ $(function($){
         return false;
     });
 
-    $( 'img[usemap]' ).rwdImageMaps();
+    $('img[usemap]').rwdImageMaps();
 
 
 });
