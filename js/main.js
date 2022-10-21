@@ -57,6 +57,10 @@ $(function($){
 
     $('img[usemap]').rwdImageMaps();
 
+    $("svg a").click(function(){
+        if(String($(this).attr("xlink:href")).charAt(0) == "#")
+             location.href = $(this).attr("xlink:href");
+    });
 
 });
 
